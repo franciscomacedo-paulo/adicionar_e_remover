@@ -37,7 +37,7 @@ h1{
     border: 1px solid #272727;
     border-radius: 10px;
     min-width: 300px;
-    min-height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +68,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 16px 0px;
     padding: 16px;
     width: 100px;
     border: none;
@@ -84,4 +85,10 @@ h1{
 .conteiner_btn button:hover{
     background-color: rgb(248, 115, 91);
 
+}
+/** CLASS ACTIVE */
+.item_ativo{
+    background-color: darkred !important;
+    color: #fff !important;
+    border: 5px solid rgb(168, 41, 41) !important;
 }
